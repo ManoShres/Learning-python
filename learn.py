@@ -3,9 +3,8 @@ count = 0
 while count<5:
     print (count)
     count = count+1
-from curses import ACS_GEQUAL
-from unicodedata import name
-
+else:
+    print("count is more than or equal to 5")
 
 print('hello world')
 mylist = []
@@ -52,3 +51,9 @@ print (all_numbers)
 name = 'Manoj'
 age  = 27
 print('Hello %s !! Are you %d yrs old?'%(name,age))
+
+#Function
+def namefunction(name,age):
+    print("Hello I'm %s and I'm %d yrs old. " %(name, age ))
+
+namefunction("Manoj",27)
