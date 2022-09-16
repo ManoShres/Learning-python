@@ -29,7 +29,7 @@ phonebook = {
     "Jill" : 947662781
 }  
 # your code goes here
-phonebook("Jake": 9876543210)
+phonebook["Jake"] =  9876543210
 phonebook.pop("Jill")
 # testing code
 if "Jake" in phonebook:  
